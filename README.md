@@ -11,3 +11,5 @@ Requirements:
 2. Struts 2
 3. Apache Tiles
 4. Spring Security 4
+
+*No database needed
