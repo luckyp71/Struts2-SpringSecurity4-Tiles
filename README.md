@@ -4,7 +4,7 @@ When it comes to struts2, spring security 4, and apache tiles integration many p
 
 This repository is just a very simple example on how to integrate struts2, spring security 4, and apache tiles.
 
-<b> There are two users with two different roles i.e. admin and user with username: admin password: admin and username: user password: user respectively. </b>
+<b> There are two users with two different roles in this project i.e. admin and user with username: admin, password: admin and username: user, password: user respectively. </b>
 
 Requirements:
 1. Netbeans 8.1
