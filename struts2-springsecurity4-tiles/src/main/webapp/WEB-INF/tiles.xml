@@ -1,0 +1,44 @@
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+    <!-- Template  -->
+    <definition name="template" template="/WEB-INF/pages/template.jsp">
+        <put-attribute name="Title" value=""/>
+        <put-attribute name="Header" value="/WEB-INF/pages/header/header.jsp"/>
+        <put-attribute name="Content" value=""/>
+        <put-attribute name="Sidebar" value="/WEB-INF/pages/sidebar/sidebar.jsp"/>
+        <put-attribute name="Footer" value="/WEB-INF/pages/footer/footer.jsp"/>
+    </definition>
+    <!-- Template  -->
+        
+    <!-- Login Page -->
+    <definition name="login" template="/WEB-INF/pages/login.jsp">
+    </definition>
+    <!-- Login Page -->
+          
+    <!-- Welcome -->
+    <definition name="welcome" extends="template">
+        <put-attribute name="Title" value="Welcome"/>
+        <put-attribute name="Content" value="/WEB-INF/pages/content/welcome.jsp"/>
+    </definition>
+    <!-- Welcome -->
+    
+    <!-- Menu 1 -->
+    <definition name="menu1" extends="template">
+        <put-attribute name="Title" value="Menu 1"/>
+        <put-attribute name="Content" value="/WEB-INF/pages/content/menu1.jsp"/>
+    </definition>
+    <!-- Menu 1 -->
+    
+    <!-- Menu 2 -->
+    <definition name="menu2" extends="template">
+        <put-attribute name="Title" value="Menu 2"/>
+        <put-attribute name="Content" value="/WEB-INF/pages/content/menu2.jsp"/>
+    </definition>
+    <!-- Menu 2 -->
+    
+    
+    
+</tiles-definitions>
