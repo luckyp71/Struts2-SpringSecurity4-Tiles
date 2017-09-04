@@ -12,5 +12,6 @@ Requirements:
 3. Apache Tiles
 4. Spring Security 4
 5. Maven
+6. Wildfly
 
 *No database needed
